@@ -60,7 +60,7 @@ char *starts_with(const char *haystack, const char *needle)
 		while (*needle)
 			if (*needle++ != *haystack++)
 				return (NULL);
-		
+
 		return ((char *)haystack);
 }
 
@@ -80,7 +80,7 @@ char *_strcat(char *dest, char *src)
 
 		while (*dest)
 			dest++;
-		
+
 		while (*src)
 			*dest++ = *src++;
 		*dest = *src;
